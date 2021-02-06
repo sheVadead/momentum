@@ -320,7 +320,7 @@ main {
   width: 60px;
   height: 60px;
   border: 0;
-  background: url("../momentum/assets/icons/refresh.svg");
+  background: url("./assets/icons/refresh.svg");
 color: violet;
 border-radius: 100%;
   background-size: contain;

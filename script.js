@@ -120,7 +120,6 @@ const momentumObject = {
       const src = momentumObject.classes.listOfImages.flat()[iter];
       const img = document.createElement('img');
       img.src = src;
-      console.log(img);
       document.body.style.backgroundImage = `url(${momentumObject.classes.listOfImages.flat()[iter]})`;
       momentumObject.classes.reloadBtn.disabled = true;
       setTimeout(() => {
