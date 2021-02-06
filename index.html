@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Momentum</title>
+  <link rel="stylesheet" href="owfont-regular.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;700&display=swap" rel="stylesheet">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+<div class="reload-wrapper">
+  <button class="btn"></button>
+  <span class="reload-back">Next background image</span>
+</div>
+  <h1 hidden>Momentum</h1>
+  <div class="wrapper">
+
+    <div class="wrapper__inner">
+      <div class="weather-container">
+        <div class="app-wrap">
+          <header>
+
+            <input type="text" autocomplete="off" class="search-box" placeholder="Search for a city..." />
+            <div class="error-text"></div>
+          </header>
+          <main>
+
+            <section class="location">
+              <div class="city"></div>
+              <div class="additional">
+                <div class="additional-wind">Ветер: <span class="wind-speed"></span></div>
+                <div class="additional-humidity">Влажность: <span class="humidity-info"></span></div>
+              </div>
+            </section>
+            <div class="current">
+              <div class="temp"></div>
+              <div class="weather"></div>
+              <i class="weather-icon owf"></i>
+            </div>
+
+          </main>
+        </div>
+      </div>
+      <div class="clock">
+        <div class="day-data">
+          <span class="day"> </span>
+          <span class="month"></span>
+        </div>
+        <time id="time"></time>
+        <h1 class="welcome">
+          <span class="greeting"> </span>
+          <p class="name" value='Введите' contenteditable="true"></p>
+        </h1>
+        <h2 class="focus-question">What in Focus: </h2>
+        <h2 id="focus" contenteditable="true"></h2>
+      </div>
+
+      <div class="quote">
+        <div class="quote__inner">
+          <div class="quote__text">
+            <h3 class="quote-of-the-day">
+              Quote of the Day:
+              <img src="../momentum/assets/icons/pointer.png" width="40" height="40" alt="">
+            </h3>
+            <blockquote class="text"></blockquote>
+            <span class="author"></span>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+
+  </div>
+
+</body>
+
+</html>
